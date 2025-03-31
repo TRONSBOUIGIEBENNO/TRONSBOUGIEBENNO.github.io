@@ -1,67 +1,207 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #000000; /* Black background */
-    color: #ffffff; /* White text */
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
 
-/* Header styles */
-header {
-    background-color: #c8102e; /* Raptors Red */
-    padding: 20px 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="https://github.com/crashoutchris420/crashoutchris420.github.io/tree/main">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The life of Cole</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#800080;
+            margin: 0;
+            padding: 0;
+        }
 
-h1 {
-    font-size: 3em;
-    color: #ffffff;
-    margin: 0;
-}
+        header {
+            background-color:#800080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
-/* Navigation links styling */
-nav {
-    background-color: #1d1d1b; /* Dark Grey for contrast */
-    padding: 10px;
-}
+        h1, h2, h3 {
+            color: #;
+        }
 
-nav a {
-    color: #ffffff;
-    font-size: 1.2em;
-    text-decoration: none;
-    margin: 0 15px;
-}
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #800080;
+            margin: 0;
+        }
 
-nav a:hover {
-    text-decoration: underline;
-}
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
 
-/* Main content area styling */
-.main-content {
-    padding: 40px 20px;
-}
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
 
-h2 {
-    color: #c8102e; /* Raptors Red for headings */
-}
+        nav ul li a:hover {
+            color: #black;
+        }
 
-p {
-    font-size: 1.2em;
-    line-height: 1.6;
-}
+        section {
+            display: none;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-/* Footer styles */
-footer {
-    background-color: #1d1d1b;
-    padding: 20px 0;
-    color: #ffffff;
-}
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000000;
+            color: white;
+        }
 
-footer a {
-    color: #c8102e; /* Raptors Red for links */
-    text-decoration: none;
-}
+        footer a {
+            color:#FFFFFF;
+            text-decoration: none;
+        }
 
-footer a:hover {
-    text-decoration: underline;
-}
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #800080;
+            color: white;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        #main-photo {
+            width: 80%;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Central Cee</h1>
+<img src="https://www.billboard.com/music/rb-hip-hop/central-cee-cant-rush-greatness-tour-2025-1235885852/" alt="Description of Image" />
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="changeSection('history')">History</a></li>
+            <li><a href="#" onclick="changeSection('albums')">Albums</a></li>
+        </ul>
+    </nav>
+
+    <!-- History Section -->
+    <section id="history">
+        <h2>Central Cee early life</h2>
+        <p>Central Cee, born Oakley Neil H. T. Caesar-Su on June 4, 1998, in London, is a British rapper known for his impact on the UK drill scene. Raised in West London, he grew up in a tough environment that influenced his music, often reflecting themes of street life and survival. Initially interested in sports, Central Cee shifted his focus to music in his teens, releasing early tracks on platforms like YouTube and SoundCloud. His unique style quickly gained attention, leading to his rise in the UK rap scene.</p>
+
+        <h2> central cee currently</h2>
+        <p>J.Currently, Central Cee is one of the leading figures in the UK rap scene, continuing to release hit tracks and expand his influence. His breakthrough single, "Day in the Life," and the album Wild West (2021) solidified his place in UK drill and rap. He has collaborated with notable artists like Ed Sheeran, KSI, and Lil Baby. Central Cee's music blends drill with mainstream appeal, gaining international recognition. He has received various accolades, including nominations at the Brit Awards and wins at the MOBO Awards. With a growing fanbase and a string of chart-topping hits, Central Cee is shaping the future of UK rap.</p>
+    </section>
+
+    
+        
+    <!-- Albums -->
+    <section id="albums">
+        <h2>best albums</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>album</th>
+                    <th>Year</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Split Descision</td>
+                    <td>June 4, 2023</td>
+                    <td>Its called split descision beacause it was a do or die album for him and his co labber dave</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Febuary 11 2021</td>
+                    <td>Central cee turns 22 and is ready to make a move on the industry</td>
+                </tr>
+                <tr>
+                    <td>Cant rush greatness</td>
+                    <td>2025</td>
+                    <td>he calls it this as it took him years in the spotlight to make his first solo album and diddnt want to rush it.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+   
+
+    <footer>
+        <p>For more information, visit the central cee wiki: <a href="https://en.wikipedia.org/wiki/Central_Cee</a></p>
+    </footer>
+
+    <script>
+        function changeSection(section) {
+            // Hide all sections
+            const sections = document.querySelectorAll('section');
+            sections.forEach(s => s.style.display = 'none');
+           
+            // Show the selected section
+            const selectedSection = document.getElementById(section);
+            selectedSection.style.display = 'block';
+        }
+
+        function showPhoto(photoUrl) {
+            const photoDisplay = document.getElementById('main-photo');
+            photoDisplay.src = photoUrl;
+        }
+
+        // Show the history section by default when the page loads
+        window.onload = function() {
+            changeSection('history');
+        }
+    </script>
+</body>
+</html>       
